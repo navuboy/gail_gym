@@ -8,7 +8,9 @@ TensorFlow implementation of Generatve Adversarial Imitation Learning (GAIL) and
 - gym: 0.9.3
 
 ## Gym environment 
-CartPole-v0  State: Continuous ; Action: Discrete 
+- CartPole-v0  
+- State: Continuous 
+- Action: Discrete 
 
 ## Implementation of GAIL:
 
