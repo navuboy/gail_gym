@@ -20,7 +20,7 @@ Reinforcement Learning algorithm: PPO, is used for generating the expert traject
 
 python3 sample_trajectory.py
 
-### Step: 3.1 Execute GAIL.  
+### Step: 3.1 Execute Imitation Learning - GAIL.  
 
 python3 run_gail.py  
 
