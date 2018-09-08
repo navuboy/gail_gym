@@ -14,7 +14,13 @@ TensorFlow implementation of Generatve Adversarial Imitation Learning (GAIL) and
 ## Implementation of GAIL:
 
 ### Step: 1 Generate expert trajectory data  
-Reinforcement Learning algorithm: PPO, is used for generating the expert trajectory data for the CartPole-v0 environment.  
+Reinforcement Learning algorithm: PPO, is used for generating the expert trajectory data for the CartPole-v0 environment.
+
+python3 run_ppo.py
+
+<p align= "center">
+  <img src="gail(tf)4gym/gif/training_ppo.gif/">
+</p>
 
 ### Step: 2 Sample the expert trajectory data from the PPO generated trajectories. 
 
