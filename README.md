@@ -3,8 +3,8 @@
 
 ## Dependencies
 - python: 3.5.2
-- tensorflow: 1.1.0 (with GPU)
-- gym: 0.9.3
+- tensorflow: 1.1.0 (https://www.tensorflow.org/)[with GPU]
+- gym: 0.9.3 (https://github.com/openai/gym)
 
 ## Gym environment 
 - CartPole-v0  
