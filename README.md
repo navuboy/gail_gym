@@ -3,8 +3,8 @@
 
 ## Dependencies
 - python: 3.5.2
-- tensorflow: 1.1.0 (https://www.tensorflow.org/) [with GPU]
-- gym: 0.9.3 (https://github.com/openai/gym)
+- <a href="https://www.tensorflow.org/">TensorFlow: 1.1.0 [with GPU]</a>
+- <a href="https://github.com/openai/gym">gym: 0.9.3 </a>
 
 ## Gym environment 
 - CartPole-v0  
@@ -57,8 +57,8 @@ python3 test_policy.py --alg=bc --model=1000
 ```
 
 ### Reference:
-- Generative Adversarial Imitation Learning, Jonathan Ho & Stefano Ermon (https://arxiv.org/abs/1606.03476)
-- Proximal Policy Optimization by OpenAI: https://blog.openai.com/openai-baselines-ppo/
+- <a href="https://arxiv.org/abs/1606.03476"><b>Generative Adversarial Imitation Learning,</b></a> Jonathan Ho & Stefano Ermon.
+- <a href="https://blog.openai.com/openai-baselines-ppo/"><b>Proximal Policy Optimization by OpenAI.</b></a> 
 - GAIL with PPO implementation using tensorflow: https://github.com/uidilr/gail_ppo_tf
 - GAIL with TRPO & PPO using tensorflow: https://github.com/andrewliao11/gail-tf
  
