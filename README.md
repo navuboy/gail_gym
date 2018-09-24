@@ -59,6 +59,6 @@ python3 test_policy.py --alg=bc --model=1000
 ### Reference:
 - <a href="https://arxiv.org/abs/1606.03476"><b>Generative Adversarial Imitation Learning,</b></a> Jonathan Ho & Stefano Ermon.
 - <a href="https://blog.openai.com/openai-baselines-ppo/"><b>Proximal Policy Optimization by OpenAI.</b></a> 
-- GAIL with PPO implementation using tensorflow: https://github.com/uidilr/gail_ppo_tf
-- GAIL with TRPO & PPO using tensorflow: https://github.com/andrewliao11/gail-tf
+- <b><a href="https://github.com/uidilr/gail_ppo_tf">GAIL with PPO implementation using tensorflow</a></b> 
+- <b><a href="https://github.com/andrewliao11/gail-tf">GAIL with TRPO & PPO using tensorflow</a></b> 
  
