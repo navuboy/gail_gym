@@ -46,8 +46,8 @@ python3 test_policy.py
   <img src="gail(tf)4gym/gif/test_gail.gif/">
 </p>
 
-# Plots:
 
+# Plots:
 <p>
   <img src="gail(tf)4gym/gif/gail-ppo-bc.png/" align="center">
   <img src="gail(tf)4gym/gif/train&test_ppo_gail.png/" align="left">
