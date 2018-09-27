@@ -51,6 +51,7 @@ python3 test_policy.py
 <p>
   <img src="gail(tf)4gym/gif/gail-ppo-bc.png/" align="center">
   <img src="gail(tf)4gym/gif/train&test_ppo_gail.png/" align="left">
+  <img src="gail(tf)4gym/gif/test_bc.png/"> 
 </p>
 
 
