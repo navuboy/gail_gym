@@ -48,16 +48,16 @@ python3 test_policy.py
 
 # Plots:
 
-<p align="left">
-  <img src="gail(tf)4gym/gif/train&test_ppo_gail.png/">
-  
+<p>
+  <img src="gail(tf)4gym/gif/gail-ppo-bc.png/" align="center">
+  <img src="gail(tf)4gym/gif/train&test_ppo_gail.png/" align="left">
 </p>
 
-
-
+<p>
 Default policy is trained with gail  
 
 ***--alg=bc*** or ***--alg=ppo*** allows you to change test policy  
+</p>
 
 ### Note: If you want to test bc policy, specify the _number_ of model.ckpt-_number_ in the directory trained_models/bc  
 For example to test behavioral cloning:  
