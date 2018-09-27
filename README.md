@@ -53,6 +53,7 @@ python3 test_policy.py
   <img src="gail(tf)4gym/gif/train&test_ppo_gail.png/" align="left">
 </p>
 
+
 ### Note: If you want to test bc policy, specify the _number_ of model.ckpt-_number_ in the directory trained_models/bc  
 For example to test behavioral cloning:  
 ```
