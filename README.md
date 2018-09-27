@@ -46,6 +46,15 @@ python3 test_policy.py
   <img src="gail(tf)4gym/gif/test_gail.gif/">
 </p>
 
+# Plots:
+
+<p align="left">
+  <img src="gail(tf)4gym/gif/train&test_ppo_gail.png/">
+  
+</p>
+
+
+
 Default policy is trained with gail  
 
 ***--alg=bc*** or ***--alg=ppo*** allows you to change test policy  
