@@ -3,7 +3,7 @@
 
 ## Dependencies
 - python: 3.5.2
-- <a href="https://www.tensorflow.org/">TensorFlow: 1.1.0 [with GPU]</a>
+- <a href="https://www.tensorflow.org/">TensorFlow: 1.1.0 </a>
 - <a href="https://github.com/openai/gym">gym: 0.9.3 </a>
 
 ## Gym environment 
