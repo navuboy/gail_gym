@@ -48,12 +48,9 @@ python3 test_policy.py
 
 
 # Plots:
-<p>
-  <img src="gail(tf)4gym/gif/gail-ppo-bc.png/" align="center">
-  <img src="gail(tf)4gym/gif/train&test_ppo_gail.png/" align="left">
-  <img src="gail(tf)4gym/gif/test_bc.png/"> 
-</p>
-
+| <img src="gail(tf)4gym/gif/gail_train_test.png/">  | <img src="gail(tf)4gym/gif/gail_legend.png/" align="left"> |  
+| :---: | :---: |  
+| <b> Training and Testing results for GAIL </b> | 
 
 ### Note: If you want to test bc policy, specify the _number_ of model.ckpt-_number_ in the directory trained_models/bc  
 For example to test behavioral cloning:  
