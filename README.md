@@ -47,7 +47,7 @@ python3 test_policy.py
 </p>
 
 
-## Plots:
+## Tensorboard Plots:
 | <img src="gail(tf)4gym/gif/gail_train_test.png/">  | <img src="gail(tf)4gym/gif/gail_legend.png/" align="left"> |  
 | :---: | :---: |  
 | <b> Training and Testing results for GAIL </b> | 
