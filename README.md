@@ -53,7 +53,7 @@ python3 test_policy.py
 | <b> Training and Testing results for GAIL </b> | 
 
 ### Note: If you want to test bc policy, specify the _number_ of model.ckpt-_number_ in the directory trained_models/bc  
-For example to test behavioral cloning:  
+For example to test <b>behavioral cloning</b>:  
 ```
 python3 test_policy.py --alg=bc --model=1000
 ```
