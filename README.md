@@ -2,9 +2,9 @@
 **TensorFlow** implementation of **Generatve Adversarial Imitation Learning (GAIL)** and **Behavioural Cloning (BC)** for classic **cartpole-v0** environment from OpenAI Gym. (based on <a href="https://arxiv.org/abs/1606.03476"><b>Generative Adversarial Imitation Learning,</b></a> Jonathan Ho & Stefano Ermon.)
 
 ## Dependencies
-- python: 3.5.2
-- <a href="https://www.tensorflow.org/">TensorFlow: 1.1.0 </a>
-- <a href="https://github.com/openai/gym">gym: 0.9.3 </a>
+- <b>python: 3.5.2</b>
+- <b><a href="https://www.tensorflow.org/">TensorFlow: 1.1.0 </a></b>
+- <b><a href="https://github.com/openai/gym">gym: 0.9.3 </a></b>
 
 ## Gym environment 
 - CartPole-v0  
