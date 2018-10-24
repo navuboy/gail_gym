@@ -14,7 +14,7 @@
 ## Implementation of GAIL:
 
 ### Step: 1 Generate expert trajectory data  
-Reinforcement Learning algorithm: PPO, is used for generating the expert trajectory data for the CartPole-v0 environment.
+Reinforcement Learning algorithm: <b>PPO</b>, is used for generating the <b>expert trajectory</b> data for the CartPole-v0 environment.
 ```
 python3 run_ppo.py
 ```
