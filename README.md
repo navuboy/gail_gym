@@ -7,9 +7,9 @@
 - <b><a href="https://github.com/openai/gym">gym: 0.9.3 </a></b>
 
 ## Gym environment 
-- CartPole-v0  
-- State: Continuous 
-- Action: Discrete 
+- <b>CartPole-v0</b>  
+- State: <b>Continuous</b> 
+- Action: <b>Discrete</b> 
 
 ## Implementation of GAIL:
 
