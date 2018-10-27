@@ -1,5 +1,5 @@
 # gail-tf-gym
-**TensorFlow** implementation of **Generatve Adversarial Imitation Learning (GAIL)** and **Behavioural Cloning (BC)** for classic **cartpole-v0** environment from OpenAI Gym. (based on <a href="https://arxiv.org/abs/1606.03476"><b>Generative Adversarial Imitation Learning,</b></a> Jonathan Ho & Stefano Ermon.)
+This repository provides a **TensorFlow** implementation of **Generatve Adversarial Imitation Learning (GAIL)** and **Behavioural Cloning (BC)** for classic **cartpole-v0** environment from OpenAI Gym. (based on <a href="https://arxiv.org/abs/1606.03476"><b>Generative Adversarial Imitation Learning,</b></a> Jonathan Ho & Stefano Ermon.)
 
 ## Dependencies
 - <b>python: 3.5.2</b>
