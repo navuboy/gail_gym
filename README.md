@@ -34,7 +34,7 @@ python3 run_gail.py
   <img src="gail(tf)4gym/gif/training_gail.gif/">
 </p>
 
-### Step: 3.2 Run Behavioral Cloning  
+### Step: 3.2 To run behavioral cloning  
 ```
 python3 run_behavior_clone.py 
 ```
