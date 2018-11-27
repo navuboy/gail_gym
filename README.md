@@ -6,10 +6,10 @@ This repository provides a **TensorFlow** implementation of **Generatve Adversar
 - <b><a href="https://www.tensorflow.org/">TensorFlow: 1.1.0 </a></b>
 - <b><a href="https://github.com/openai/gym">gym: 0.9.3 </a></b>
 
-## Gym environment 
+## Gym environment
 - <b>CartPole-v0</b>  
-- State: <b>Continuous</b> 
-- Action: <b>Discrete</b> 
+- State: <b>Continuous</b>
+- Action: <b>Discrete</b>
 
 ## Implementation of GAIL:
 
@@ -19,10 +19,10 @@ Reinforcement Learning algorithm: <b>PPO</b>, is used for generating the <b>expe
 python3 run_ppo.py
 ```
 <p align= "center">
-  <img src="gail(tf)4gym/gif/training_ppo.gif/">
+  <img src="gail-ppo-tf-gym/gif/training_ppo.gif/">
 </p>
 
-### Step: 2 Sample the expert trajectory data from the PPO generated trajectories. 
+### Step: 2 Sample the expert trajectory data from the PPO generated trajectories.
 ```
 python3 sample_trajectory.py
 ```
@@ -31,26 +31,26 @@ python3 sample_trajectory.py
 python3 run_gail.py  
 ```
 <p align= "center">
-  <img src="gail(tf)4gym/gif/training_gail.gif/">
+  <img src="gail-ppo-tf-gym/gif/training_gail.gif/">
 </p>
 
 ### Step: 3.2 To run behavioral cloning  
 ```
-python3 run_behavior_clone.py 
+python3 run_behavior_clone.py
 ```
 ### Step: 4 Test trained policy for GAIL
 ```
 python3 test_policy.py
 ```
 <p align= "center">
-  <img src="gail(tf)4gym/gif/test_gail.gif/">
+  <img src="gail-ppo-tf-gym/gif/test_gail.gif/">
 </p>
 
 
 ## Tensorboard Plots:
-| <img src="gail(tf)4gym/gif/gail_train_test.png/">  | <img src="gail(tf)4gym/gif/gail_legend.png/" align="left"> |  
+| <img src="gail-ppo-tf-gym/gif/gail_train_test.png/">  | <img src="gail-ppo-tf-gym/gif/gail_legend.png/" align="left"> |  
 | :---: | :---: |  
-| <b> Training and Testing results for GAIL </b> | 
+| <b> Training and Testing results for GAIL </b> |
 
 ### Note: If you want to test bc policy, specify the _number_ of model.ckpt-_number_ in the directory trained_models/bc  
 For example to test <b>behavioral cloning</b>:  
@@ -60,7 +60,6 @@ python3 test_policy.py --alg=bc --model=1000
 
 ### Reference:
 - <a href="https://arxiv.org/abs/1606.03476"><b>Generative Adversarial Imitation Learning,</b></a> Jonathan Ho & Stefano Ermon.
-- <a href="https://blog.openai.com/openai-baselines-ppo/"><b>Proximal Policy Optimization by OpenAI.</b></a> 
-- <b><a href="https://github.com/uidilr/gail_ppo_tf">GAIL with PPO implementation using tensorflow</a></b> 
-- <b><a href="https://github.com/andrewliao11/gail-tf">GAIL with TRPO & PPO using tensorflow</a></b> 
- 
+- <a href="https://blog.openai.com/openai-baselines-ppo/"><b>Proximal Policy Optimization by OpenAI.</b></a>
+- <b><a href="https://github.com/uidilr/gail_ppo_tf">GAIL with PPO implementation using tensorflow</a></b>
+- <b><a href="https://github.com/andrewliao11/gail-tf">GAIL with TRPO & PPO using tensorflow</a></b>
