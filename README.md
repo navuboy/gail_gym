@@ -58,7 +58,7 @@ For example to test <b>behavioral cloning</b>:
 python3 test_policy.py --alg=bc --model=1000
 ```
 
-### Reference:
+### Sources:
 - <a href="https://arxiv.org/abs/1606.03476"><b>Generative Adversarial Imitation Learning,</b></a> Jonathan Ho & Stefano Ermon.
 - <a href="https://blog.openai.com/openai-baselines-ppo/"><b>Proximal Policy Optimization by OpenAI.</b></a>
 - <b><a href="https://github.com/uidilr/gail_ppo_tf">GAIL with PPO implementation using tensorflow</a></b>
