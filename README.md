@@ -64,9 +64,9 @@ This repository provides a **Pytorch** implementation of **Generatve Adversarial
 
 ## Gym environment
 - <b>Bipedwalker-v2</b>  
-- State space [<b>Continuous</b>]: (1) hull angle, (2) angular velocity, (3) horizontal speed, (4) vertical speed, (5) position of joints (6) joints angular speed, (7) legs contact with ground, and (8) lidar rangefinder measurements
+- <b>State space (Continuous):</b> (1) hull angle, (2) angular velocity, (3) horizontal speed, (4) vertical speed, (5) position of joints (6) joints angular speed, (7) legs contact with ground, and (8) lidar rangefinder measurements
 
-- Action: joint motor torques
+- <b>Action:</b> joint motor torques
 
 ### PPO generated expert trajectories:
 <p align= "left">
