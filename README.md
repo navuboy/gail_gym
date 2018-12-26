@@ -59,7 +59,28 @@ For example to test <b>behavioral cloning</b>:
 python3 test_policy.py --alg=bc --model=1000
 ```
 ## gail-ppo-pytorch-gym
+
 This repository provides a **Pytorch** implementation of **Generatve Adversarial Imitation Learning (GAIL)**  for **bipedwalker-v2** environment from OpenAI Gym. 
+
+## Gym environment
+- <b>Bipedwalker-v2</b>  
+- State space [<b>Continuous</b>]: (1) hull angle, (2) angular velocity, (3) horizontal speed, (4) vertical speed, (5) position of joints (6) joints angular speed, (7) legs contact with ground, and (8) lidar rangefinder measurements
+
+- Action: joint motor torques
+
+### PPO generated expert trajectories:
+<p align= "left">
+  <img src="/gail-ppo-pytorch-gym/assets/ppo.gif" width="300" height="200" hspace="90">
+  <img src="/gail-ppo-pytorch-gym/assets/ppo.png" width="300" height="200">
+</p> 
+
+### Imitation learning based on GAIL
+
+<p align= "left">
+  <img src="/gail-ppo-pytorch-gym/assets/gail.gif" width="300" height="200" hspace="90">
+  <img src="/gail-ppo-pytorch-gym/assets/gail.png" width="300" height="200">
+</p> 
+
 
 ### Sources:
 - <a href="https://arxiv.org/abs/1606.03476"><b>Generative Adversarial Imitation Learning,</b></a> Jonathan Ho & Stefano Ermon.
