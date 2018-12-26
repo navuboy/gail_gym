@@ -58,6 +58,8 @@ For example to test <b>behavioral cloning</b>:
 ```
 python3 test_policy.py --alg=bc --model=1000
 ```
+## gail-ppo-pytorch-gym
+This repository provides a **Pytorch** implementation of **Generatve Adversarial Imitation Learning (GAIL)**  for **bipedwalker-v2** environment from OpenAI Gym. 
 
 ### Sources:
 - <a href="https://arxiv.org/abs/1606.03476"><b>Generative Adversarial Imitation Learning,</b></a> Jonathan Ho & Stefano Ermon.
